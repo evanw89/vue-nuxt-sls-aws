@@ -1,0 +1,26 @@
+{
+  "name": "serverless-side-rendering-vue-nuxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt",
+    "deploy": "nuxt build && sls deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "nuxt": "^2.4.2",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-http": "^1.9.0",
+    "terser": "^3.16.0"
+  },
+  "devDependencies": {
+    "serverless-domain-manager": "^2.6.13",
+    "webpack-cli": "^3.2.1"
+  }
+}
